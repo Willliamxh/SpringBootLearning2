@@ -3,6 +3,7 @@ package com.bjp;
 import com.bjp.config.SpringConfig;
 import com.bjp.vo.Cat;
 import com.bjp.vo.Student;
+import com.bjp.vo.Tiger;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -47,6 +48,15 @@ public class MyTest {
         ApplicationContext ctx=new AnnotationConfigApplicationContext(SpringConfig.class);
         Cat myCat= (Cat) ctx.getBean("myCat");
         System.out.println("使用ImportResource加载的猫：" + myCat);
+
+
+    }
+
+    @Test
+    public void test05(){
+        ApplicationContext ctx=new AnnotationConfigApplicationContext(SpringConfig.class);
+        Tiger myTiger= (Tiger) ctx.getBean("tiger");
+        System.out.println("使用ImportResource加载的猫：" + myTiger);
 
 
     }
