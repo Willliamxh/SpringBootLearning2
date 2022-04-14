@@ -3,6 +3,7 @@ package com.bjp.config;
 import com.bjp.vo.Student;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.ImportResource;
 
 
 /**
@@ -14,6 +15,7 @@ import org.springframework.context.annotation.Configuration;
  */
 
 @Configuration
+@ImportResource(value ={ "classpath:applicationContext.xml","classpath:beans.xml"})
 public class SpringConfig {
     /**
      * 创建方法，方法的返回值是对象。 在方法的上面加入@Bean

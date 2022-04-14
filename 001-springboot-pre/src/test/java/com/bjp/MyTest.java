@@ -1,6 +1,7 @@
 package com.bjp;
 
 import com.bjp.config.SpringConfig;
+import com.bjp.vo.Cat;
 import com.bjp.vo.Student;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
@@ -37,6 +38,15 @@ public class MyTest {
         ApplicationContext ctx=new AnnotationConfigApplicationContext(SpringConfig.class);
         Student lisi= (Student) ctx.getBean("lisiStudent");
         System.out.println("使用JavaConfig创建的bean对象：" + lisi);
+
+
+    }
+
+    @Test
+    public void test04(){
+        ApplicationContext ctx=new AnnotationConfigApplicationContext(SpringConfig.class);
+        Cat myCat= (Cat) ctx.getBean("myCat");
+        System.out.println("使用ImportResource加载的猫：" + myCat);
 
 
     }
