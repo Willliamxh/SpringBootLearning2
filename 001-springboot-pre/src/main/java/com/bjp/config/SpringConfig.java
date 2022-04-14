@@ -12,6 +12,7 @@ import org.springframework.context.annotation.Configuration;
  *  SpringConfig这个类就相当于beans.xml
  *
  */
+
 @Configuration
 public class SpringConfig {
     /**
