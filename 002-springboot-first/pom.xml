@@ -24,6 +24,7 @@
 
 
     <dependencies>
+        <!--这些starter起步依赖会把所有的web相关依赖都加进来，比如json啊，还有个内置的tomcat-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
