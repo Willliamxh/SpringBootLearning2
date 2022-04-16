@@ -1,0 +1,5 @@
+#\u5F00\u53D1\u73AF\u5883\u4E0B\u7684\u73AF\u5883
+server:
+  port: 8081
+  servlet:
+    context-path: /mydev

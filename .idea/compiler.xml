@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="005-springboot-mvc" />
         <module name="003-springboot-second" />
+        <module name="007-springboot-muti-env" />
         <module name="001-springboot-pre" />
         <module name="002-springboot-first" />
         <module name="006-springboot-env" />
@@ -19,6 +20,7 @@
       <module name="003-springboot-second" target="1.8" />
       <module name="005-springboot-mvc" target="1.8" />
       <module name="006-springboot-env" target="1.8" />
+      <module name="007-springboot-muti-env" target="1.8" />
       <module name="ch06-springboot-env" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -28,6 +30,7 @@
       <module name="003-springboot-second" options="-parameters" />
       <module name="005-springboot-mvc" options="-parameters" />
       <module name="006-springboot-env" options="-parameters" />
+      <module name="007-springboot-muti-env" options="-parameters" />
       <module name="ch06-springboot-env" options="-parameters" />
     </option>
   </component>
