@@ -10,6 +10,7 @@
         <module name="003-springboot-second" />
         <module name="001-springboot-pre" />
         <module name="002-springboot-first" />
+        <module name="006-springboot-env" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,8 @@
       <module name="002-springboot-first" target="1.8" />
       <module name="003-springboot-second" target="1.8" />
       <module name="005-springboot-mvc" target="1.8" />
+      <module name="006-springboot-env" target="1.8" />
+      <module name="ch06-springboot-env" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -24,6 +27,8 @@
       <module name="002-springboot-first" options="-parameters" />
       <module name="003-springboot-second" options="-parameters" />
       <module name="005-springboot-mvc" options="-parameters" />
+      <module name="006-springboot-env" options="-parameters" />
+      <module name="ch06-springboot-env" options="-parameters" />
     </option>
   </component>
 </project>
