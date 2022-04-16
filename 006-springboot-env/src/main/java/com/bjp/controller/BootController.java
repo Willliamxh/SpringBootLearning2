@@ -10,7 +10,7 @@ public class BootController {
     @RequestMapping("/hello")
     @ResponseBody
     public String soSome(){
-        return "hello SpringBoot 应用";
+        return "hello SpringBoot 应用，设置端口为8082";
     }
 
 }
