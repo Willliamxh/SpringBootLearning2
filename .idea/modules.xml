@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/008-springboot-custom-yml/008-springboot-custom-yml.iml" filepath="$PROJECT_DIR$/008-springboot-custom-yml/008-springboot-custom-yml.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch009-springboot-jsp/009-springboot-jsp.iml" filepath="$PROJECT_DIR$/ch009-springboot-jsp/009-springboot-jsp.iml" />
       <module fileurl="file://$PROJECT_DIR$/010-springboot-container/010-springboot-container.iml" filepath="$PROJECT_DIR$/010-springboot-container/010-springboot-container.iml" />
+      <module fileurl="file://$PROJECT_DIR$/011-springboot-commandlinerunner/011-springboot-commandlinerunner.iml" filepath="$PROJECT_DIR$/011-springboot-commandlinerunner/011-springboot-commandlinerunner.iml" />
     </modules>
   </component>
 </project>
