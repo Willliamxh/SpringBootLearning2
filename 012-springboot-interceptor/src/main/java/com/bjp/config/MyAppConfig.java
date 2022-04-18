@@ -1,12 +1,14 @@
 package com.bjp.config;
 
 import com.bjp.web.LoginInterceptor;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 //WebMvcConfigurer这个接口和springmvc的很多配置相关，
 // 我们这边相当于把xml里面写的东西移动到了这边来
+@Configuration
 public class MyAppConfig implements WebMvcConfigurer {
     //添加拦截器对象，注入到容器中
     @Override
