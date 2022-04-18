@@ -8,7 +8,8 @@
     <file url="file://$PROJECT_DIR$/007-springboot-muti-env/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/007-springboot-muti-env/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/008-springboot-custom-yml/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch009-springboot-jsp/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ch009-springboot-jsp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/009-springboot-jsp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/009-springboot-jsp/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/010-springboot-container/src/main/java" charset="UTF-8" />
   </component>
 </project>
