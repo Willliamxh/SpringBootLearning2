@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/005-springboot-mvc/pom.xml" />
         <option value="$PROJECT_DIR$/006-springboot-env/pom.xml" />
         <option value="$PROJECT_DIR$/007-springboot-muti-env/pom.xml" />
+        <option value="$PROJECT_DIR$/008-springboot-custom-yml/pom.xml" />
       </list>
     </option>
   </component>

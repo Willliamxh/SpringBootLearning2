@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/005-springboot-mvc/005-springboot-mvc.iml" filepath="$PROJECT_DIR$/005-springboot-mvc/005-springboot-mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/006-springboot-env/006-springboot-env.iml" filepath="$PROJECT_DIR$/006-springboot-env/006-springboot-env.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-springboot-muti-env/007-springboot-muti-env.iml" filepath="$PROJECT_DIR$/007-springboot-muti-env/007-springboot-muti-env.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-springboot-custom-yml/008-springboot-custom-yml.iml" filepath="$PROJECT_DIR$/008-springboot-custom-yml/008-springboot-custom-yml.iml" />
     </modules>
   </component>
 </project>
