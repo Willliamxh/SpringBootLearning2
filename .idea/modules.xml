@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/012-springboot-interceptor/012-springboot-interceptor.iml" filepath="$PROJECT_DIR$/012-springboot-interceptor/012-springboot-interceptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/013-springboot-servlet/013-springboot-servlet.iml" filepath="$PROJECT_DIR$/013-springboot-servlet/013-springboot-servlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/014-springboot-fliter/014-springboot-fliter.iml" filepath="$PROJECT_DIR$/014-springboot-fliter/014-springboot-fliter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/015-springboot-character-filter/015-springboot-character-filter.iml" filepath="$PROJECT_DIR$/015-springboot-character-filter/015-springboot-character-filter.iml" />
     </modules>
   </component>
 </project>
