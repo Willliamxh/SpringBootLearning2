@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="017-springboot-mapper" />
         <module name="011-springboot-commandlinerunner" />
         <module name="002-springboot-first" />
         <module name="013-springboot-servlet" />
@@ -39,6 +40,7 @@
       <module name="014-springboot-fliter" target="1.8" />
       <module name="015-springboot-character-filter" target="1.8" />
       <module name="016-springboot-character-properties" target="1.8" />
+      <module name="017-springboot-mapper" target="1.8" />
       <module name="ch06-springboot-env" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -58,6 +60,7 @@
       <module name="014-springboot-fliter" options="-parameters" />
       <module name="015-springboot-character-filter" options="-parameters" />
       <module name="016-springboot-character-properties" options="-parameters" />
+      <module name="017-springboot-mapper" options="-parameters" />
       <module name="ch06-springboot-env" options="-parameters" />
     </option>
   </component>

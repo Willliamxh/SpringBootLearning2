@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/014-springboot-fliter/014-springboot-fliter.iml" filepath="$PROJECT_DIR$/014-springboot-fliter/014-springboot-fliter.iml" />
       <module fileurl="file://$PROJECT_DIR$/015-springboot-character-filter/015-springboot-character-filter.iml" filepath="$PROJECT_DIR$/015-springboot-character-filter/015-springboot-character-filter.iml" />
       <module fileurl="file://$PROJECT_DIR$/016-springboot-character-properties/016-springboot-character-properties.iml" filepath="$PROJECT_DIR$/016-springboot-character-properties/016-springboot-character-properties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/017-springboot-mapper/017-springboot-mapper.iml" filepath="$PROJECT_DIR$/017-springboot-mapper/017-springboot-mapper.iml" />
     </modules>
   </component>
 </project>

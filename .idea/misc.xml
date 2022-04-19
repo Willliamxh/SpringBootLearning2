@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/014-springboot-fliter/pom.xml" />
         <option value="$PROJECT_DIR$/015-springboot-character-filter/pom.xml" />
         <option value="$PROJECT_DIR$/016-springboot-character-properties/pom.xml" />
+        <option value="$PROJECT_DIR$/017-springboot-mapper/pom.xml" />
       </list>
     </option>
   </component>
