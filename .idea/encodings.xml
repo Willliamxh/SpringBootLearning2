@@ -12,5 +12,6 @@
     <file url="file://$PROJECT_DIR$/011-springboot-commandlinerunner/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/011-springboot-commandlinerunner/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/012-springboot-interceptor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/013-springboot-servlet/src/main/java" charset="UTF-8" />
   </component>
 </project>
