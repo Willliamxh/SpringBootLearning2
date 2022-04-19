@@ -6,18 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="005-springboot-mvc" />
-        <module name="009-springboot-jsp" />
-        <module name="003-springboot-second" />
         <module name="011-springboot-commandlinerunner" />
         <module name="002-springboot-first" />
         <module name="013-springboot-servlet" />
+        <module name="007-springboot-muti-env" />
+        <module name="014-springboot-fliter" />
+        <module name="010-springboot-container" />
+        <module name="005-springboot-mvc" />
+        <module name="009-springboot-jsp" />
+        <module name="003-springboot-second" />
         <module name="012-springboot-interceptor" />
         <module name="008-springboot-custom-yml" />
-        <module name="007-springboot-muti-env" />
         <module name="001-springboot-pre" />
         <module name="006-springboot-env" />
-        <module name="010-springboot-container" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,6 +34,7 @@
       <module name="011-springboot-commandlinerunner" target="1.8" />
       <module name="012-springboot-interceptor" target="1.8" />
       <module name="013-springboot-servlet" target="1.8" />
+      <module name="014-springboot-fliter" target="1.8" />
       <module name="ch06-springboot-env" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -49,6 +51,7 @@
       <module name="011-springboot-commandlinerunner" options="-parameters" />
       <module name="012-springboot-interceptor" options="-parameters" />
       <module name="013-springboot-servlet" options="-parameters" />
+      <module name="014-springboot-fliter" options="-parameters" />
       <module name="ch06-springboot-env" options="-parameters" />
     </option>
   </component>
