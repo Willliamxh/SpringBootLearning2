@@ -15,6 +15,7 @@
         <module name="005-springboot-mvc" />
         <module name="009-springboot-jsp" />
         <module name="003-springboot-second" />
+        <module name="016-springboot-character-properties" />
         <module name="012-springboot-interceptor" />
         <module name="015-springboot-character-filter" />
         <module name="008-springboot-custom-yml" />
@@ -37,6 +38,7 @@
       <module name="013-springboot-servlet" target="1.8" />
       <module name="014-springboot-fliter" target="1.8" />
       <module name="015-springboot-character-filter" target="1.8" />
+      <module name="016-springboot-character-properties" target="1.8" />
       <module name="ch06-springboot-env" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -55,6 +57,7 @@
       <module name="013-springboot-servlet" options="-parameters" />
       <module name="014-springboot-fliter" options="-parameters" />
       <module name="015-springboot-character-filter" options="-parameters" />
+      <module name="016-springboot-character-properties" options="-parameters" />
       <module name="ch06-springboot-env" options="-parameters" />
     </option>
   </component>
