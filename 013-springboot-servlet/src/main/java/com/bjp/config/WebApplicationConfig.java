@@ -13,8 +13,13 @@ public class WebApplicationConfig {
         //public ServletRegistrationBean(T servlet, String... urlMappings)
         //第一个参数是 Servlet对象， 第二个是url地址
 
-        ServletRegistrationBean bean = new ServletRegistrationBean(new MyServlet(),
-                "/myservlet");
+        // ServletRegistrationBean bean = new ServletRegistrationBean(new MyServlet(),
+        //         "/myservlet");
+
+        //第二种方式构造servlet
+        ServletRegistrationBean bean = new ServletRegistrationBean();
+        bean.setServlet( new MyServlet());
+        bean.addUrlMappings("/login","/test"); // <url-pattern>
         return bean;
     }
 
