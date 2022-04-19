@@ -21,23 +21,23 @@ public class WebSystemConfig {
     }
 
 
-    // //注册Filter
-    // @Bean
-    // public FilterRegistrationBean filterRegistrationBean(){
-    //     FilterRegistrationBean reg = new FilterRegistrationBean();
-    //
-    //     //使用框架中的过滤器类
-    //     CharacterEncodingFilter filter  = new CharacterEncodingFilter();
-    //     //指定使用的编码方式
-    //     filter.setEncoding("utf-8");
-    //     //指定request ， response都使用encoding的值
-    //     filter.setForceEncoding(true);
-    //
-    //     reg.setFilter(filter);
-    //     //指定 过滤的url地址
-    //     reg.addUrlPatterns("/*");
-    //
-    //
-    //     return reg;
-    // }
+    //注册Filter
+    @Bean
+    public FilterRegistrationBean filterRegistrationBean(){
+        FilterRegistrationBean reg = new FilterRegistrationBean();
+
+        //使用框架中的过滤器类
+        CharacterEncodingFilter filter  = new CharacterEncodingFilter();
+        //指定使用的编码方式
+        filter.setEncoding("utf-8");
+        //指定request ， response都使用encoding的值
+        filter.setForceEncoding(true);
+
+        reg.setFilter(filter);
+        //指定 过滤的url地址 过滤所有的地址
+        reg.addUrlPatterns("/*");
+
+
+        return reg;
+    }
 }
