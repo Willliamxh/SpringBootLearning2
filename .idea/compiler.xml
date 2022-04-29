@@ -13,6 +13,7 @@
         <module name="007-springboot-muti-env" />
         <module name="014-springboot-fliter" />
         <module name="demo" />
+        <module name="019-springboot-transactional" />
         <module name="010-springboot-container" />
         <module name="005-springboot-mvc" />
         <module name="009-springboot-jsp" />
@@ -42,6 +43,7 @@
       <module name="015-springboot-character-filter" target="1.8" />
       <module name="016-springboot-character-properties" target="1.8" />
       <module name="017-springboot-mapper" target="1.8" />
+      <module name="019-springboot-transactional" target="1.8" />
       <module name="ch06-springboot-env" target="1.8" />
       <module name="demo" target="1.8" />
     </bytecodeTargetLevel>
@@ -63,6 +65,7 @@
       <module name="015-springboot-character-filter" options="-parameters" />
       <module name="016-springboot-character-properties" options="-parameters" />
       <module name="017-springboot-mapper" options="-parameters" />
+      <module name="019-springboot-transactional" options="-parameters" />
       <module name="ch06-springboot-env" options="-parameters" />
       <module name="demo" options="-parameters" />
     </option>
