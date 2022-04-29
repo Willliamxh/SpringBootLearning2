@@ -10,9 +10,11 @@ import org.springframework.context.ConfigurableApplicationContext;
 /**
  * @MapperScan: 找到Dao接口和Mapper文件
  *     basePackages：Dao接口所在的包名
+ *
+ *     补充 其实mappersacnner找的是接口 因为mapper文件可以分离
  */
 @SpringBootApplication
-@MapperScan(basePackages = {"com.bjp.dao",""})
+@MapperScan(basePackages = {"com.bjp.dao","com.bjp.mapper"})
 public class Application {
 
 	public static void main(String[] args) {
