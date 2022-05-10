@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/016-springboot-character-properties/016-springboot-character-properties.iml" filepath="$PROJECT_DIR$/016-springboot-character-properties/016-springboot-character-properties.iml" />
       <module fileurl="file://$PROJECT_DIR$/017-springboot-mapper/017-springboot-mapper.iml" filepath="$PROJECT_DIR$/017-springboot-mapper/017-springboot-mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/019-springboot-transactional/019-springboot-transactional.iml" filepath="$PROJECT_DIR$/019-springboot-transactional/019-springboot-transactional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/020-springboot-restful/020-springboot-restful.iml" filepath="$PROJECT_DIR$/020-springboot-restful/020-springboot-restful.iml" />
       <module fileurl="file://$PROJECT_DIR$/018-springboot-mappersacn/demo.iml" filepath="$PROJECT_DIR$/018-springboot-mappersacn/demo.iml" />
     </modules>
   </component>

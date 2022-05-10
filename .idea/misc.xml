@@ -21,6 +21,7 @@
         <option value="$PROJECT_DIR$/017-springboot-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/018-springboot-mappersacn/pom.xml" />
         <option value="$PROJECT_DIR$/019-springboot-transactional/pom.xml" />
+        <option value="$PROJECT_DIR$/020-springboot-restful/pom.xml" />
       </list>
     </option>
   </component>
