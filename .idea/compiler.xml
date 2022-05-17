@@ -20,6 +20,7 @@
         <module name="demo" />
         <module name="demo (9)" />
         <module name="020-springboot-restful" />
+        <module name="021-springboot-redis" />
         <module name="example" />
         <module name="009-springboot-jsp" />
         <module name="003-springboot-second" />
@@ -63,6 +64,7 @@
       <module name="017-springboot-mapper" target="1.8" />
       <module name="019-springboot-transactional" target="1.8" />
       <module name="020-springboot-restful" target="1.8" />
+      <module name="021-springboot-redis" target="1.8" />
       <module name="_019-springboot-transactional" target="1.8" />
       <module name="ch008-springboot-custom-yml" target="1.8" />
       <module name="ch06-springboot-env" target="1.8" />
@@ -103,6 +105,7 @@
       <module name="017-springboot-mapper" options="-parameters" />
       <module name="019-springboot-transactional" options="-parameters" />
       <module name="020-springboot-restful" options="-parameters" />
+      <module name="021-springboot-redis" options="-parameters" />
       <module name="_019-springboot-transactional" options="-parameters" />
       <module name="ch008-springboot-custom-yml" options="-parameters" />
       <module name="ch06-springboot-env" options="-parameters" />
