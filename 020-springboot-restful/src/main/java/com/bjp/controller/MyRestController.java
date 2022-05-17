@@ -65,6 +65,18 @@ public class MyRestController {
     }
 
 
+    // @PostMapping("/student/test")
+    // public String test(){
+    //     return "执行student/test,使用请求的方式是post";
+    // }
+
+
+    @PutMapping("/student/test")
+    // @RequestMapping(value = "/student/test",method = RequestMethod.PUT)
+    public String test(){
+        return "执行student/test,使用请求的方式是put";
+    }
+
 
 
 }
