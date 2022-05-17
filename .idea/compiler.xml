@@ -7,22 +7,39 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="017-springboot-mapper" />
+        <module name="domo" />
+        <module name="restful" />
+        <module name="demo (12)" />
         <module name="011-springboot-commandlinerunner" />
         <module name="002-springboot-first" />
-        <module name="013-springboot-servlet" />
-        <module name="007-springboot-muti-env" />
+        <module name="demo (10)" />
+        <module name="demo (5)" />
+        <module name="demo (7)" />
         <module name="014-springboot-fliter" />
+        <module name="_019-springboot-transactional" />
         <module name="demo" />
-        <module name="019-springboot-transactional" />
+        <module name="demo (9)" />
         <module name="020-springboot-restful" />
-        <module name="010-springboot-container" />
-        <module name="005-springboot-mvc" />
+        <module name="example" />
         <module name="009-springboot-jsp" />
         <module name="003-springboot-second" />
+        <module name="demo (2)" />
+        <module name="demo (4)" />
         <module name="016-springboot-character-properties" />
+        <module name="008-springboot-custom-yml" />
+        <module name="ch008-springboot-custom-yml" />
+        <module name="demo (11)" />
+        <module name="013-springboot-servlet" />
+        <module name="demo (6)" />
+        <module name="demo (8)" />
+        <module name="007-springboot-muti-env" />
+        <module name="019-springboot-transactional" />
+        <module name="010-springboot-container" />
+        <module name="005-springboot-mvc" />
+        <module name="demo (1)" />
+        <module name="demo (3)" />
         <module name="012-springboot-interceptor" />
         <module name="015-springboot-character-filter" />
-        <module name="008-springboot-custom-yml" />
         <module name="001-springboot-pre" />
         <module name="006-springboot-env" />
       </profile>
@@ -46,8 +63,25 @@
       <module name="017-springboot-mapper" target="1.8" />
       <module name="019-springboot-transactional" target="1.8" />
       <module name="020-springboot-restful" target="1.8" />
+      <module name="_019-springboot-transactional" target="1.8" />
+      <module name="ch008-springboot-custom-yml" target="1.8" />
       <module name="ch06-springboot-env" target="1.8" />
       <module name="demo" target="1.8" />
+      <module name="demo (1)" target="1.8" />
+      <module name="demo (10)" target="1.8" />
+      <module name="demo (11)" target="1.8" />
+      <module name="demo (12)" target="1.8" />
+      <module name="demo (2)" target="1.8" />
+      <module name="demo (3)" target="1.8" />
+      <module name="demo (4)" target="1.8" />
+      <module name="demo (5)" target="1.8" />
+      <module name="demo (6)" target="1.8" />
+      <module name="demo (7)" target="1.8" />
+      <module name="demo (8)" target="1.8" />
+      <module name="demo (9)" target="1.8" />
+      <module name="domo" target="1.8" />
+      <module name="example" target="1.8" />
+      <module name="restful" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -69,8 +103,25 @@
       <module name="017-springboot-mapper" options="-parameters" />
       <module name="019-springboot-transactional" options="-parameters" />
       <module name="020-springboot-restful" options="-parameters" />
+      <module name="_019-springboot-transactional" options="-parameters" />
+      <module name="ch008-springboot-custom-yml" options="-parameters" />
       <module name="ch06-springboot-env" options="-parameters" />
       <module name="demo" options="-parameters" />
+      <module name="demo (1)" options="-parameters" />
+      <module name="demo (10)" options="-parameters" />
+      <module name="demo (11)" options="-parameters" />
+      <module name="demo (12)" options="-parameters" />
+      <module name="demo (2)" options="-parameters" />
+      <module name="demo (3)" options="-parameters" />
+      <module name="demo (4)" options="-parameters" />
+      <module name="demo (5)" options="-parameters" />
+      <module name="demo (6)" options="-parameters" />
+      <module name="demo (7)" options="-parameters" />
+      <module name="demo (8)" options="-parameters" />
+      <module name="demo (9)" options="-parameters" />
+      <module name="domo" options="-parameters" />
+      <module name="example" options="-parameters" />
+      <module name="restful" options="-parameters" />
     </option>
   </component>
 </project>

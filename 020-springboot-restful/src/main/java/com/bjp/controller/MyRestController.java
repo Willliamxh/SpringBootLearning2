@@ -44,6 +44,8 @@ public class MyRestController {
      * 更新资源
      *
      * 当路径变量名称和 形参名一样， @PathVariable中的value可以省略
+     *
+     * http://localhost:9001/myboot/student/1001/20
      */
     @PutMapping("/student/{id}/{age}")
     public String modifyStudent(@PathVariable Integer id,
@@ -54,6 +56,8 @@ public class MyRestController {
 
     /**
      * 删除资源
+     * 利用postman来传参数，postman简单使用
+     * http://localhost:9001/myboot/student/1001
      */
     @DeleteMapping("/student/{id}")
     public String removeStudentById(@PathVariable Integer id){
