@@ -20,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/017-springboot-mapper/017-springboot-mapper.iml" filepath="$PROJECT_DIR$/017-springboot-mapper/017-springboot-mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/019-springboot-transactional/019-springboot-transactional.iml" filepath="$PROJECT_DIR$/019-springboot-transactional/019-springboot-transactional.iml" />
       <module fileurl="file://$PROJECT_DIR$/020-springboot-restful/020-springboot-restful.iml" filepath="$PROJECT_DIR$/020-springboot-restful/020-springboot-restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/021-springboot-redis/021-springboot-redis.iml" filepath="$PROJECT_DIR$/021-springboot-redis/021-springboot-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/019-springboot-transactional/_019-springboot-transactional.iml" filepath="$PROJECT_DIR$/019-springboot-transactional/_019-springboot-transactional.iml" />
       <module fileurl="file://$PROJECT_DIR$/008-springboot-custom-yml/ch008-springboot-custom-yml.iml" filepath="$PROJECT_DIR$/008-springboot-custom-yml/ch008-springboot-custom-yml.iml" />
       <module fileurl="file://$PROJECT_DIR$/018-springboot-mappersacn/demo.iml" filepath="$PROJECT_DIR$/018-springboot-mappersacn/demo.iml" />
