@@ -23,6 +23,7 @@
         <option value="$PROJECT_DIR$/019-springboot-transactional/pom.xml" />
         <option value="$PROJECT_DIR$/020-springboot-restful/pom.xml" />
         <option value="$PROJECT_DIR$/021-springboot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/021-interface-api/pom.xml" />
       </list>
     </option>
   </component>

@@ -39,6 +39,7 @@
         <module name="005-springboot-mvc" />
         <module name="demo (1)" />
         <module name="demo (3)" />
+        <module name="022-interface-api" />
         <module name="012-springboot-interceptor" />
         <module name="015-springboot-character-filter" />
         <module name="001-springboot-pre" />
@@ -65,6 +66,7 @@
       <module name="019-springboot-transactional" target="1.8" />
       <module name="020-springboot-restful" target="1.8" />
       <module name="021-springboot-redis" target="1.8" />
+      <module name="022-interface-api" target="1.5" />
       <module name="_019-springboot-transactional" target="1.8" />
       <module name="ch008-springboot-custom-yml" target="1.8" />
       <module name="ch06-springboot-env" target="1.8" />
