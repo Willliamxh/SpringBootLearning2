@@ -3,6 +3,9 @@ package com.bjp.controller;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
+import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
+import org.springframework.data.redis.serializer.RedisSerializer;
+import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -72,6 +75,46 @@ public class RedisController {
         String v = stringRedisTemplate.opsForValue().get(k);
         return "k的value:"+v;
     }
+
+
+    /** 设置 RedisTemplate 序列化
+     *  可以设置 key 的序列化， 可以设置value的序列化
+     *  可以同时设置 key 和 value的序列化
+     */
+    @PostMapping("/redis/addstr")
+    public String addString(String k,String v){
+        // 使用RedisTemplate ，在存取值之前，设置序列化
+        // 设置 key 使用String的序列化, 自己可以尝试一下用Jason序列化
+        // redisTemplate.setValueSerializer(RedisSerializer.json());
+        //         redisTemplate.setHashValueSerializer(RedisSerializer.json());
+        redisTemplate.setKeySerializer( new StringRedisSerializer());
+
+        // 设置 value 的序列化
+        redisTemplate.setValueSerializer( new StringRedisSerializer());
+
+        redisTemplate.opsForValue().set(k,v);
+        return "定义RedisTemplate对象的key，value的序列化";
+
+    }
+
+    // /**
+    //  * 自己尝试用json的格式进行转化
+    //  * https://blog.csdn.net/weixin_42001592/article/details/124054738
+    //  */
+    // @PostMapping("/redis/addJasonStr")
+    // public String addJason(String k,String v){
+    //     // 设置 Value 的序列化 - JSON 序列化 RedisSerializer.json() => GenericJackson2JsonRedisSerializer
+    //     redisTemplate.setKeySerializer( new StringRedisSerializer());
+    //
+    //     redisTemplate.setValueSerializer(RedisSerializer.json());
+    //
+    //     redisTemplate.opsForValue().set(k,v);
+    //
+    //     return "定义RedisTemplate对象的key，value,使用Json的序列化";
+    //
+    // }
+
+
 
 
 
