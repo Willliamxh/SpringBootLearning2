@@ -114,6 +114,14 @@ public class RedisController {
     //
     // }
 
+    /**
+     * 使用json 序列化， 把java对象转为json存储
+     */
+
+
+
+
+
 
 
 
