@@ -1,5 +1,6 @@
 package com.bjp.controller;
 
+import com.bjp.vo.Student;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
@@ -89,7 +90,7 @@ public class RedisController {
         //         redisTemplate.setHashValueSerializer(RedisSerializer.json());
         redisTemplate.setKeySerializer( new StringRedisSerializer());
 
-        // 设置 value 的序列化
+        // 设置 value 的序列化 如果不设置 那还是默认jdk的序列化
         redisTemplate.setValueSerializer( new StringRedisSerializer());
 
         redisTemplate.opsForValue().set(k,v);
@@ -116,8 +117,43 @@ public class RedisController {
 
     /**
      * 使用json 序列化， 把java对象转为json存储
-     *
      */
+    @PostMapping("/redis/addJson")
+    public String addJson(){
+        Student student=new Student();
+        student.setId(1000);
+        student.setAge(23);
+        student.setName("zhangsan");
+
+        redisTemplate.setKeySerializer(new StringRedisSerializer());
+        // 把值作为json序列化
+        redisTemplate.setValueSerializer(new Jackson2JsonRedisSerializer(Student.class));
+
+        redisTemplate.opsForValue().set("mystudent",student);
+
+        return "Json序列化";
+
+    }
+
+
+    /**
+     * 使用json 序列化， 把java对象转为json存储
+     */
+    @PostMapping("/redis/getJson")
+    public String getJson(){
+
+
+        redisTemplate.setKeySerializer(new StringRedisSerializer());
+        // 把值作为json序列化
+        redisTemplate.setValueSerializer(new Jackson2JsonRedisSerializer(Student.class));
+
+        //反序列化redisTemplate这个类自己已经做了
+        Object mystudent = redisTemplate.opsForValue().get("mystudent");
+
+        return "Json反序列化"+mystudent;
+
+    }
+
 
 
 
