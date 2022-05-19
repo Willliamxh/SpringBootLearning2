@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
  * 使用dubbo中的注解暴露服务
  */
 @Component //注入到容器中
-@DubboService(interfaceClass = StudentService.class,version = "1.0",timeout = 5000)
+@DubboService(interfaceClass = StudentService.class,version = "1.0",timeout = 15000)
 public class StudentServiceImpl implements StudentService {
 
     @Override
