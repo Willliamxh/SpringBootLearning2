@@ -28,6 +28,7 @@
         <module name="demo (4)" />
         <module name="016-springboot-character-properties" />
         <module name="008-springboot-custom-yml" />
+        <module name="023-service-provider" />
         <module name="ch008-springboot-custom-yml" />
         <module name="demo (11)" />
         <module name="013-springboot-servlet" />
@@ -67,6 +68,7 @@
       <module name="020-springboot-restful" target="1.8" />
       <module name="021-springboot-redis" target="1.8" />
       <module name="022-interface-api" target="1.5" />
+      <module name="023-service-provider" target="1.8" />
       <module name="_019-springboot-transactional" target="1.8" />
       <module name="ch008-springboot-custom-yml" target="1.8" />
       <module name="ch06-springboot-env" target="1.8" />
@@ -108,6 +110,7 @@
       <module name="019-springboot-transactional" options="-parameters" />
       <module name="020-springboot-restful" options="-parameters" />
       <module name="021-springboot-redis" options="-parameters" />
+      <module name="023-service-provider" options="-parameters" />
       <module name="_019-springboot-transactional" options="-parameters" />
       <module name="ch008-springboot-custom-yml" options="-parameters" />
       <module name="ch06-springboot-env" options="-parameters" />

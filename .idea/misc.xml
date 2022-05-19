@@ -25,6 +25,7 @@
         <option value="$PROJECT_DIR$/021-springboot-redis/pom.xml" />
         <option value="$PROJECT_DIR$/021-interface-api/pom.xml" />
         <option value="$PROJECT_DIR$/022-interface-api/pom.xml" />
+        <option value="$PROJECT_DIR$/023-service-provider/pom.xml" />
       </list>
     </option>
   </component>
