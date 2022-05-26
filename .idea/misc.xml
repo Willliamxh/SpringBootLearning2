@@ -27,6 +27,7 @@
         <option value="$PROJECT_DIR$/022-interface-api/pom.xml" />
         <option value="$PROJECT_DIR$/023-service-provider/pom.xml" />
         <option value="$PROJECT_DIR$/024-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/025-spring-war/pom.xml" />
       </list>
     </option>
   </component>

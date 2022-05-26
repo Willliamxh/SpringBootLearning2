@@ -24,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/022-interface-api/022-interface-api.iml" filepath="$PROJECT_DIR$/022-interface-api/022-interface-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/023-service-provider/023-service-provider.iml" filepath="$PROJECT_DIR$/023-service-provider/023-service-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/024-consumer/024-consumer.iml" filepath="$PROJECT_DIR$/024-consumer/024-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/025-spring-war/025-spring-war.iml" filepath="$PROJECT_DIR$/025-spring-war/025-spring-war.iml" />
       <module fileurl="file://$PROJECT_DIR$/019-springboot-transactional/_019-springboot-transactional.iml" filepath="$PROJECT_DIR$/019-springboot-transactional/_019-springboot-transactional.iml" />
       <module fileurl="file://$PROJECT_DIR$/008-springboot-custom-yml/ch008-springboot-custom-yml.iml" filepath="$PROJECT_DIR$/008-springboot-custom-yml/ch008-springboot-custom-yml.iml" />
       <module fileurl="file://$PROJECT_DIR$/018-springboot-mappersacn/demo.iml" filepath="$PROJECT_DIR$/018-springboot-mappersacn/demo.iml" />
