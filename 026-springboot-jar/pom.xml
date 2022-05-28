@@ -37,8 +37,8 @@
 	</dependencies>
 
 	<build>
-
-		<!--加入resource插件-->
+		<!--打包后的文件名称-->
+		<finalName>myboot</finalName>
 		<!--加入resources插件 -->
 		<!--指定编译jsp到META-INF/resources-->
 		<resources>
@@ -73,6 +73,8 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<!--打包jar， 有jsp文件时，必须指定maven-plugin插件的版本是 1.4.2.RELEASE-->
+				<version>1.4.2.RELEASE</version>
 			</plugin>
 		</plugins>
 	</build>
