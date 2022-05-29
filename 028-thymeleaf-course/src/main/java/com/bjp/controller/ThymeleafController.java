@@ -39,12 +39,12 @@ public class ThymeleafController {
         return "expression2";
     }
 
-    // //链接表达式
-    // @GetMapping("/link")
-    // public String link(Model model){
-    //     model.addAttribute("userId",1002);
-    //     return "link";
-    // }
+    //链接表达式
+    @GetMapping("/link")
+    public String link(Model model){
+        model.addAttribute("userId",1002);
+        return "link";
+    }
 
 
 
