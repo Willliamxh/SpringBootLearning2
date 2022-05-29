@@ -61,6 +61,20 @@ public class ThymeleafController {
         return "queryUser,有两个参数：name="+name+",age="+age;
     }
 
+    //使用模板的属性
+    @GetMapping("/property")
+    public String useProperty(Model model){
+        model.addAttribute("methodAttr","post");
+        model.addAttribute("id","2342");
+
+        model.addAttribute("paramname","name");
+        model.addAttribute("uservalue","lisi");
+
+        model.addAttribute("textcolor","color:blue");
+
+        return "html-property";
+    }
+
 
 
 
