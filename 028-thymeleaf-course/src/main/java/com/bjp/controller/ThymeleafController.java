@@ -145,6 +145,14 @@ public class ThymeleafController {
 
     }
 
+    //switch
+    @GetMapping("/switch")
+    public String doSwitch(Model model){
+        model.addAttribute("sex","m");
+        return "switch";
+
+    }
+
 
 
 
