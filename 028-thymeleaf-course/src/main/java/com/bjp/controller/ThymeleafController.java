@@ -179,6 +179,19 @@ public class ThymeleafController {
 
     }
 
+    //字符串连接
+    @GetMapping("/strjoin")
+    public String strJoin(Model model){
+        model.addAttribute("sex","m");
+        model.addAttribute("age",20);
+        model.addAttribute("name","李思");
+        model.addAttribute("city","上海");
+        model.addAttribute("isLogin",true);
+        model.addAttribute("myuser" ,new SysUser(1005,"周峰","男",20));
+        return "strjoin";
+
+    }
+
 
 
 
