@@ -24,6 +24,7 @@
         <module name="020-springboot-restful" />
         <module name="021-springboot-redis" />
         <module name="example" />
+        <module name="028-thymeleaf-course" />
         <module name="009-springboot-jsp" />
         <module name="003-springboot-second" />
         <module name="demo (2)" />
@@ -77,6 +78,7 @@
       <module name="025-spring-war" target="1.8" />
       <module name="026-springboot-jar" target="1.8" />
       <module name="027-thymeleaf-first" target="1.8" />
+      <module name="028-thymeleaf-course" target="1.8" />
       <module name="_019-springboot-transactional" target="1.8" />
       <module name="ch008-springboot-custom-yml" target="1.8" />
       <module name="ch06-springboot-env" target="1.8" />
@@ -123,6 +125,7 @@
       <module name="025-spring-war" options="-parameters" />
       <module name="026-springboot-jar" options="-parameters" />
       <module name="027-thymeleaf-first" options="-parameters" />
+      <module name="028-thymeleaf-course" options="-parameters" />
       <module name="_019-springboot-transactional" options="-parameters" />
       <module name="ch008-springboot-custom-yml" options="-parameters" />
       <module name="ch06-springboot-env" options="-parameters" />
