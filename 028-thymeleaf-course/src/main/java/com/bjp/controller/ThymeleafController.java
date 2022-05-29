@@ -153,6 +153,19 @@ public class ThymeleafController {
 
     }
 
+    // 内联 text
+    @GetMapping("/inline")
+    public String inline(Model model){
+        model.addAttribute("sex","m");
+        model.addAttribute("age",20);
+        model.addAttribute("name","张三");
+        model.addAttribute("myuser" ,new SysUser(1005,"周峰","男",20));
+
+        return "inline";
+
+    }
+
+
 
 
 
