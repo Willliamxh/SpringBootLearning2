@@ -46,6 +46,24 @@ public class ThymeleafController {
         return "link";
     }
 
+    //测试链接表达式的地址
+    @GetMapping("/queryAccount")
+    @ResponseBody
+    public String queryAccount(Integer id){
+        return "queryAccount,参数id="+id;
+    }
+
+
+    //有两个参数的地址
+    @GetMapping("/queryUser")
+    @ResponseBody
+    public String queryUser(String name, Integer age){
+        return "queryUser,有两个参数：name="+name+",age="+age;
+    }
+
+
+
+
 
 
 
