@@ -250,6 +250,12 @@ public class ThymeleafController {
         return "utilObject";
     }
 
+    // 自定义模板
+    @GetMapping("/customtpl")
+    public String customTemplate(Model model){
+        return "customtpl";
+    }
+
 
 
 
