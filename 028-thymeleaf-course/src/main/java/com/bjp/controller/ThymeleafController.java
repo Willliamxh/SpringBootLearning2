@@ -101,6 +101,37 @@ public class ThymeleafController {
         return "eachArray";
     }
 
+    //循环Map
+    @GetMapping("/eachMap")
+    public String eachMap(Model model){
+        Map<String,SysUser> map = new HashMap<>();
+        map.put("user1",new SysUser(11001,"马超","男",20));
+        map.put("user2",new SysUser(11002,"黄忠","男",26));
+        map.put("user3",new SysUser(11003,"赵云","男",22));
+        model.addAttribute("mymap",map);
+
+
+        Map<String,String>  strMap  = new HashMap<>();
+        strMap.put("str1","Hello SpringBoot");
+        strMap.put("str2","MyBatis MySQL");
+        model.addAttribute("strmap",strMap);
+
+        //复杂的List<Map>
+        List<Map<String,SysUser>> listmap  =  new ArrayList<>();
+        listmap.add(map);
+
+        Map<String,SysUser> map1 = new HashMap<>();
+        map1.put("sanguo1",new SysUser(21001,"典韦","男",22));
+        map1.put("sanguo2",new SysUser(21002,"夏侯惇","男",28));
+        map1.put("sanguo3",new SysUser(21003,"关胜","男",16));
+        listmap.add(map1);
+
+        model.addAttribute("listmap",listmap);
+
+
+        return "eachMap";
+    }
+
 
 
 
