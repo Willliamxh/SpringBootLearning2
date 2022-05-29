@@ -2,6 +2,9 @@ package com.bjp.controller;
 
 import com.bjp.model.SysUser;
 
+import com.bjp.vo.Cat;
+import com.bjp.vo.Dog;
+import com.bjp.vo.Zoo;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -219,6 +222,34 @@ public class ThymeleafController {
 
         return "baseObject";
     }
+
+    //内置的工具类对象
+    @GetMapping("/utilobject")
+    public String utilObject(Model model){
+        model.addAttribute("mydate",new Date());
+        model.addAttribute("mynum",26.695);
+        model.addAttribute("mystr","bjpowernode");
+
+        List<String> list = Arrays.asList("a","b","c");
+        model.addAttribute("mylist",list);
+
+
+        //创建Zoo对象
+        Zoo zoo = new Zoo();
+        Cat cat = new Cat();
+        cat.setName("短腿");
+
+        Dog dog = new Dog();
+        dog.setName("二哈");
+
+        zoo.setCat(cat);
+        //zoo.setDog(dog); zoo.dog = null
+
+        model.addAttribute("zoo",zoo);
+
+        return "utilObject";
+    }
+
 
 
 
