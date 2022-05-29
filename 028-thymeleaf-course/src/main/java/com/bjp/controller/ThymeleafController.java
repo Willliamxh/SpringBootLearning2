@@ -165,6 +165,20 @@ public class ThymeleafController {
 
     }
 
+    // 字面量
+    @GetMapping("/text")
+    public String text(Model model){
+        model.addAttribute("sex","m");
+        model.addAttribute("age",20);
+        model.addAttribute("name","张三");
+        model.addAttribute("city","北京");
+        model.addAttribute("isLogin",true);
+        model.addAttribute("myuser" ,new SysUser(1005,"周峰","男",20));
+
+        return "text";
+
+    }
+
 
 
 
