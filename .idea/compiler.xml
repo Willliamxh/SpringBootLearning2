@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="017-springboot-mapper" />
+        <module name="027-thymeleaf-first" />
         <module name="domo" />
         <module name="restful" />
         <module name="025-spring-war" />
@@ -75,6 +76,7 @@
       <module name="024-consumer" target="1.8" />
       <module name="025-spring-war" target="1.8" />
       <module name="026-springboot-jar" target="1.8" />
+      <module name="027-thymeleaf-first" target="1.8" />
       <module name="_019-springboot-transactional" target="1.8" />
       <module name="ch008-springboot-custom-yml" target="1.8" />
       <module name="ch06-springboot-env" target="1.8" />
@@ -120,6 +122,7 @@
       <module name="024-consumer" options="-parameters" />
       <module name="025-spring-war" options="-parameters" />
       <module name="026-springboot-jar" options="-parameters" />
+      <module name="027-thymeleaf-first" options="-parameters" />
       <module name="_019-springboot-transactional" options="-parameters" />
       <module name="ch008-springboot-custom-yml" options="-parameters" />
       <module name="ch06-springboot-env" options="-parameters" />

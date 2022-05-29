@@ -32,6 +32,7 @@
         <option value="$PROJECT_DIR$/024-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/025-spring-war/pom.xml" />
         <option value="$PROJECT_DIR$/026-springboot-jar/pom.xml" />
+        <option value="$PROJECT_DIR$/027-thymeleaf-first/pom.xml" />
       </list>
     </option>
   </component>

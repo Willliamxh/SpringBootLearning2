@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>hello.html</title>
+</head>
+<body>
+    <h3>使用Thymeleaf的例子</h3>
+    <p>显示数据</p>
+    <!--经过服务器处理之后 会用data替代原始“想显示数据”    -->
+    <!--好处，前端人员和后端人员同时开发代码，前端人员提供“想显示数据”，后端人员直接将数据进行填充，数据来自于后端  -->
+    <p th:text="${data}">想显示数据</p>
+<!--    <p th:text="${mydata}">数据</p>-->
+</body>
+</html>
