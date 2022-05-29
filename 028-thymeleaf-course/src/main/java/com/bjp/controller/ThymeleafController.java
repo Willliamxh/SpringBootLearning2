@@ -89,6 +89,19 @@ public class ThymeleafController {
     }
 
 
+    //循环数组
+    @GetMapping("/eachArray")
+    public String eachArray(Model model){
+        SysUser userarray[] = new SysUser[3];
+        userarray[0] = new SysUser(1001,"马超","男",20);
+        userarray[1] = new SysUser(1002,"黄忠","男",26);
+        userarray[2] = new SysUser(1003,"赵云","男",22);
+        model.addAttribute("userarray",userarray);
+
+        return "eachArray";
+    }
+
+
 
 
 
