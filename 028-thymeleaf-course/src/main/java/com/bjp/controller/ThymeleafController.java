@@ -133,6 +133,19 @@ public class ThymeleafController {
     }
 
 
+    // ifunless
+    @GetMapping("/ifunless")
+    public String ifunless(Model model){
+        model.addAttribute("sex","m");
+        model.addAttribute("isLogin",true);
+        model.addAttribute("age",20);
+        model.addAttribute("name","");
+        model.addAttribute("isOld",null);
+        return "ifunless";
+
+    }
+
+
 
 
 
