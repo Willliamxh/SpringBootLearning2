@@ -206,6 +206,21 @@ public class ThymeleafController {
     }
 
 
+    //模板内置对象
+    @GetMapping("/baseObject")
+    public String baseObject(Model model, HttpServletRequest request,
+                             HttpSession session){
+        //添加数据
+        model.addAttribute("myname","李思");
+        request.setAttribute("requestData","request作用域中的数据");
+        request.getSession().setAttribute("sessionData","session作用域中的数据");
+        //直接使用session
+        session.setAttribute("loginname","zhangsan");
+
+        return "baseObject";
+    }
+
+
 
 
 
