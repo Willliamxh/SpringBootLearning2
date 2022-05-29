@@ -75,6 +75,22 @@ public class ThymeleafController {
         return "html-property";
     }
 
+    //循环List
+    @GetMapping("/eachList")
+    public String eachList(Model model){
+        List<SysUser> users  = new ArrayList<>();
+        users.add( new SysUser(1001,"张三","m",20));
+        users.add( new SysUser(1002,"关羽","m",70));
+        users.add( new SysUser(1003,"张飞","m",60));
+        users.add( new SysUser(1004,"刘备","m",80));
+        users.add( new SysUser(1005,"孙尚香","f",50));
+        model.addAttribute("myusers",users);
+        return "eachList";
+    }
+
+
+
+
 
 
 
