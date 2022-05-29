@@ -192,6 +192,19 @@ public class ThymeleafController {
 
     }
 
+    //运算符使用
+    @GetMapping("/sym")
+    public String sym(Model model){
+        model.addAttribute("sex","m");
+        model.addAttribute("age",20);
+        model.addAttribute("name","李思");
+        model.addAttribute("city","上海");
+        model.addAttribute("isLogin",true);
+        model.addAttribute("myuser" , null);
+        return "sym";
+
+    }
+
 
 
 
