@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--这边写接口的全限定名称 也就是com.bjp.domain.StudentDao-->
+<mapper namespace="com.bjp.demo.dao.StudentDao">
+
+    <!--id 是对应的namespace中的方法名 resultType是返回值-->
+    <!--按手机号来查询-->
+    <select id="selectByPhone" resultType="com.bjp.model.Student">
+        select * from springdb.studentdubbo
+        where phone=#{phone}
+   </select>
+
+    <insert id="insertStudent" >
+        insert into springdb.studentdubbo(name, phone, age)
+        VALUES (#{name},#{phone},#{age})
+    </insert>
+
+
+</mapper>

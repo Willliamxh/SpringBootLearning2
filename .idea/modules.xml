@@ -44,6 +44,7 @@
       <module fileurl="file://$PROJECT_DIR$/013-springboot-servlet/demo (8).iml" filepath="$PROJECT_DIR$/013-springboot-servlet/demo (8).iml" />
       <module fileurl="file://$PROJECT_DIR$/014-springboot-fliter/demo (9).iml" filepath="$PROJECT_DIR$/014-springboot-fliter/demo (9).iml" />
       <module fileurl="file://$PROJECT_DIR$/../demo-api/demo-api.iml" filepath="$PROJECT_DIR$/../demo-api/demo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-consumer/demo-consumer.iml" filepath="$PROJECT_DIR$/demo-consumer/demo-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-studentservice/demo-studentservice.iml" filepath="$PROJECT_DIR$/demo-studentservice/demo-studentservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/016-springboot-character-properties/domo.iml" filepath="$PROJECT_DIR$/016-springboot-character-properties/domo.iml" />
       <module fileurl="file://$PROJECT_DIR$/002-springboot-first/example.iml" filepath="$PROJECT_DIR$/002-springboot-first/example.iml" />
