@@ -21,6 +21,7 @@
         <module name="_019-springboot-transactional" />
         <module name="demo" />
         <module name="demo (9)" />
+        <module name="demo-api" />
         <module name="020-springboot-restful" />
         <module name="021-springboot-redis" />
         <module name="example" />
@@ -95,6 +96,7 @@
       <module name="demo (7)" target="1.8" />
       <module name="demo (8)" target="1.8" />
       <module name="demo (9)" target="1.8" />
+      <module name="demo-api" target="1.5" />
       <module name="domo" target="1.8" />
       <module name="example" target="1.8" />
       <module name="restful" target="1.8" />
