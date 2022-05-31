@@ -32,5 +32,6 @@
     <file url="file://$PROJECT_DIR$/026-springboot-jar/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/027-thymeleaf-first/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/028-thymeleaf-course/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-studentservice/src/main/java" charset="UTF-8" />
   </component>
 </project>

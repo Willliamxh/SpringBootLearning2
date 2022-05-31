@@ -35,6 +35,7 @@
         <option value="$PROJECT_DIR$/027-thymeleaf-first/pom.xml" />
         <option value="$PROJECT_DIR$/028-thymeleaf-course/pom.xml" />
         <option value="$PROJECT_DIR$/../demo-api/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-studentservice/pom.xml" />
       </list>
     </option>
   </component>

@@ -42,6 +42,7 @@
         <module name="007-springboot-muti-env" />
         <module name="019-springboot-transactional" />
         <module name="010-springboot-container" />
+        <module name="demo-studentservice" />
         <module name="005-springboot-mvc" />
         <module name="demo (1)" />
         <module name="demo (3)" />
@@ -97,6 +98,7 @@
       <module name="demo (8)" target="1.8" />
       <module name="demo (9)" target="1.8" />
       <module name="demo-api" target="1.5" />
+      <module name="demo-studentservice" target="1.8" />
       <module name="domo" target="1.8" />
       <module name="example" target="1.8" />
       <module name="restful" target="1.8" />
@@ -144,6 +146,7 @@
       <module name="demo (7)" options="-parameters" />
       <module name="demo (8)" options="-parameters" />
       <module name="demo (9)" options="-parameters" />
+      <module name="demo-studentservice" options="-parameters" />
       <module name="domo" options="-parameters" />
       <module name="example" options="-parameters" />
       <module name="restful" options="-parameters" />
